@@ -27,7 +27,7 @@
             <div class="middle">
                 <p>Let's do this!</p>
 
-                <form action="#" method="post">
+                <form action="#" method="post" onsubmit="event.preventDefault();">
                     <div class="input">
                     <label for="first_name">First Name: </label>
                     <input type="text" id="first_name" name="first_name" placeholder="Lofi">
@@ -57,10 +57,12 @@
                     <label for="con_pass">Confirm Password: </label>
                     <input type="password" id="con_password" name="con_password" placeholder="password">
                     </div>
+
+                    <button type="submit" id="submit">Create Account</button>
                 </form>
             </div>
             <div class="bottom">
-                <button type="submit" id="submit">Create Account</button>
+                
 
                 <p>Already have an account? <a href="#">Log In</a></p>
                 
@@ -70,6 +72,6 @@
             </div>
         </div>
     </div>
-    
+    <script src="./js/script.js"></script>
 </body>
 </html>
