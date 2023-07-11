@@ -30,32 +30,32 @@
                 <form action="#" method="post" onsubmit="event.preventDefault();">
                     <div class="input">
                     <label for="first_name">First Name: </label>
-                    <input type="text" id="first_name" name="first_name" placeholder="Lofi">
+                    <input type="text" id="first_name" name="first_name" placeholder="Lofi" minlength="3" maxlength="15">
                     </div>
 
                     <div class="input">
                     <label for="last_name">Last Name: </label>
-                    <input type="text" id="last_name" name="last_name" placeholder="Girl">
+                    <input type="text" id="last_name" name="last_name" placeholder="Girl"  minlength="3" maxlength="15">
                     </div>  
 
                     <div class="input">
                     <label for="email">Email: </label>
-                    <input type="email" id="email"  placeholder="lofigirl@gmail.com">
+                    <input type="email" id="email"  placeholder="lofigirl@gmail.com" maxlength="30">
                     </div>  
 
                     <div class="input">
                     <label for="phone_number">Phone Number: </label>
-                    <input type="text" id="phone_number" name="phone_number" placeholder="5149877888">
+                    <input type="text" id="phone_number" name="phone_number" placeholder="1-514-987-7888" maxlength="14">
                     </div> 
                     
                     <div class="input">
                     <label for="password">Password: </label>
-                    <input type="password" id="password" name="password" placeholder="password">
+                    <input type="password" id="password" name="password" placeholder="password"  minlength="6" maxlength="25">
                     </div>  
                     
                     <div class="input">
                     <label for="con_pass">Confirm Password: </label>
-                    <input type="password" id="con_password" name="con_password" placeholder="password">
+                    <input type="password" id="con_password" name="con_password" placeholder="password"  minlength="6" maxlength="25">
                     </div>
 
                     <button type="submit" id="submit">Create Account</button>
